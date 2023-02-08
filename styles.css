@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    margin: 0;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    background-color: blueviolet;
+}
+
+.mini-div {
+    height: 50px;
+    width: 50px;
+}
