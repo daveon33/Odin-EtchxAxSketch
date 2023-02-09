@@ -5,6 +5,7 @@
 body {
     height:100vh;
     margin: 0;
+    background-color: black;
 }
 
 #grid-container {
@@ -21,4 +22,9 @@ body {
 .mini-div {
     height: 50px;
     width: 50px;
+    background-color: aquamarine;
+}
+
+.mini-div-draw {
+    background-color: yellow;
 }
