@@ -3,7 +3,7 @@ function gridGenerator() {
         let newDiv = document.createElement('div');
         newDiv.setAttribute('class', 'mini-div');
         
-        let dashBoard = document.querySelector('#grid-container');
+        let dashBoard = document.querySelector('#sketcher');
         dashBoard.appendChild(newDiv);
     }
 }
