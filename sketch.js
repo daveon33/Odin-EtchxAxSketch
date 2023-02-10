@@ -61,6 +61,8 @@ function gridSizeChanger() {
     let sizeBar = document.getElementById('myRange');
     sizeBar.addEventListener('mouseup', (e) => {
         let newSize = e.target.value;
+        let sizeDisplay = document.getElementById('grid-size');
+        sizeDisplay.textContent = `${newSize} x ${newSize}`;
         gridGenerator(newSize);
     })
     
